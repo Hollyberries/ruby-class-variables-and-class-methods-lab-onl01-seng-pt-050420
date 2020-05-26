@@ -34,7 +34,7 @@ attr_accessor :name, :artist, :genre
      if genre_list[genre]
        genre_list[genre] += 1
      else
-       genre_list[genre] = l
+       genre_list[genre] = 1
      end
      genre_list
      end
