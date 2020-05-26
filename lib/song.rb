@@ -28,18 +28,16 @@ attr_accessor :name, :artist, :genre
   end
   
   def self.genre_count
-     genre_hash = {}
-     @@genres.collect do |num_song|
-     @@genres.count(num_song)
-     genre_hash << num_song
+     genre_list = {}
+     @@genres.each do |num|
+      << num_song
     end
   end
   
   def self.artist_count
-     artist_hash = {}
-     @@artists.collect do |num_song|
-     @@artists.count(num_song)
-     artist_hash << num_song
+     arist_list = {}
+     @@artists.each do |num|
+      << num_song
     end
   end
 
