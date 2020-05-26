@@ -37,6 +37,7 @@ attr_accessor :name, :artist, :genre
        genre_list[genre] = l
      end
      genre_list
+     end
   end
   
   
