@@ -31,7 +31,7 @@ attr_accessor :name, :artist, :genre
      genre_hash = {}
      @@genres.collect do |genre, num_song|
      @@genres.count(num_song)
-     genre_hash
+     genre_hash << 
     end
   end
   
@@ -39,7 +39,7 @@ attr_accessor :name, :artist, :genre
      artist_hash = {}
      @@artists.collect do |artist, num_song|
      @@artists.count(num_song)
-     artist_hash
+     artist_hash << 
     end
   end
 
