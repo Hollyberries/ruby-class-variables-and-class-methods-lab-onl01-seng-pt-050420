@@ -27,10 +27,11 @@ attr_accessor :name, :artist, :genre
     @@artists.uniq
   end
   
+  
   def self.genre_count
      genre_list = {}
      @@genres.each do |genre|
-     genre_list[:genre]
+     genre_list
     end
   end
   
@@ -38,7 +39,7 @@ attr_accessor :name, :artist, :genre
   def self.artist_count
      artist_list = {}
      @@artists.each do |artist|
-     artist_list[:artist]
+     artist_list
     end
   end
 
