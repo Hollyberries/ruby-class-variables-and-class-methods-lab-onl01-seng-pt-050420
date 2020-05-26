@@ -28,14 +28,12 @@ attr_accessor :name, :artist, :genre
   end
   
   def self.genre_count
-    @@genres = {}
     @@genres.collect do |genre, num_song|
      @@genres.count(num_song)
     end
   end
   
   def self.artist_count
-    @@artists = {}
     @@artists.collect do |artist, num_song|
      @@artists.count(num_song)
     end
