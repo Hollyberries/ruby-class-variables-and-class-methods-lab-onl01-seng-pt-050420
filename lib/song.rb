@@ -31,12 +31,13 @@ attr_accessor :name, :artist, :genre
   def self.genre_count
      genre_list = {}
      @@genres.each do |genre|
-     if genre_list[:genre]
-       
-       
-      
-    end
-    end
+     if genre_list[genre]
+       genre_list[genre] =+ 1
+     else
+       genre_list[genre] = l
+     end
+     genre_list
+  end
   
   
   def self.artist_count
