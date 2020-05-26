@@ -51,6 +51,7 @@ attr_accessor :name, :artist, :genre
     end
     artist_list
     end
+  end
 
 
 end
