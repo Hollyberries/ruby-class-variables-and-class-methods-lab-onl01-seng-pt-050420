@@ -46,13 +46,11 @@ attr_accessor :name, :artist, :genre
      artist_list = {}
      @@artists.each do |artist|
      if artist_list[artist]
-       artist_list[artist] += 1
+       artist_list[artist] +=1
     else
       artist_list[artist] = 1
     end
-    artist_list
     end
-  end
-
+    artist_list
 
 end
