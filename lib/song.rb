@@ -13,12 +13,3 @@ attr_accessor :name, :artist, :genre
   end
   
 end
-
-
-
-
-#Album.new
-#Album.new
-#Album.new
- 
-#Album.count
