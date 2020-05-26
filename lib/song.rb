@@ -33,6 +33,7 @@ attr_accessor :name, :artist, :genre
      @@genres.each do |genre|
      if genre_list[:genre]
        
+       
       
     end
     end
