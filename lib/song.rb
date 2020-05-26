@@ -19,7 +19,9 @@ attr_accessor :name, :artist, :genre
   
   def self.genres
     @@genres
-
+    
+  def self.artists
+    
   end
 
 
