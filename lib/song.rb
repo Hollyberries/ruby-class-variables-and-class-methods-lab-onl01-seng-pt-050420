@@ -40,6 +40,7 @@ attr_accessor :name, :artist, :genre
     @@artists.collect do |artist, song|
      @@artists << artist(+=1)
     end
+    
   end
 
 
