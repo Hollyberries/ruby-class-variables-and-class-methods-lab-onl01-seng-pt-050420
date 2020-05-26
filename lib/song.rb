@@ -30,7 +30,7 @@ attr_accessor :name, :artist, :genre
   def self.genre_count
     @@genres = {}
     @@genres.collect do |genre, song|
-     @@genres << genre(+=1)
+     @@genres << genre
     end
       
   end
@@ -38,7 +38,7 @@ attr_accessor :name, :artist, :genre
   def self.artist_count
     @@artists = {}
     @@artists.collect do |artist, song|
-     @@artists << artist(+=1)
+     @@artists << artist
     end
     
   end
