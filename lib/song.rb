@@ -31,6 +31,7 @@ attr_accessor :name, :artist, :genre
     @@genres = {}
     @@genres.collect do |genre, num_song|
      @@genres.count(num_song)
+     @@genres << num_song
     end
       
   end
@@ -39,6 +40,7 @@ attr_accessor :name, :artist, :genre
     @@artists = {}
     @@artists.collect do |artist, num_song|
      @@artists.count(num_song)
+     @@artists << num_song
     end
     
   end
