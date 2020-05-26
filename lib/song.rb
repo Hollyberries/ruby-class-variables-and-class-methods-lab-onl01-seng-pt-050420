@@ -29,15 +29,15 @@ attr_accessor :name, :artist, :genre
   
   def self.genre_count
      genre_list = {}
-     @@genres.each do |num|
-     genre_list << num
+     @@genres.each do |genre|
+     genre_list[:]
     end
   end
   
   
   def self.artist_count
      artist_list = {}
-     @@artists.each do |num|
+     @@artists.each do |artistum|
      artist_list << num
     end
   end
